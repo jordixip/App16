@@ -4,6 +4,7 @@
 #include "Common\DeviceResources.h"
 #include "App16Main.h"
 
+// test
 namespace App16
 {
 	// Punto de entrada principal de nuestra aplicación. Conecta la aplicación con el shell de Windows y controla los eventos de ciclo de vida de la aplicación.
