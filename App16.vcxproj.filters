@@ -62,5 +62,21 @@
     <Image Include="Assets\Wide310x150Logo.scale-200.png">
       <Filter>Activos</Filter>
     </Image>
+    <Filter Include="3d routines">
+      <UniqueIdentifier>{9e2498dc-ccbd-438c-b78f-ad81293738a7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.cpp" />
+    <ClCompile Include="App16Main.cpp" />
+    <ClCompile Include="pch.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.h" />
+    <ClInclude Include="App16Main.h" />
+    <ClInclude Include="pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
   </ItemGroup>
 </Project>

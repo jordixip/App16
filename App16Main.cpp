@@ -1,6 +1,7 @@
 #include "pch.h"
 #include "App16Main.h"
 #include "Common\DirectXHelper.h"
+#include "3d routines\Transformations.h"
 
 using namespace App16;
 using namespace Windows::Foundation;
