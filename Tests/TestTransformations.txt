@@ -1,0 +1,57 @@
+/* #include <iostream>
+#include <iomanip>
+#include <cmath>
+
+// Declaraciones de las funciones en ensamblador
+extern "C" void RotateX(float angle, float* matrix);
+extern "C" void RotateY(float angle, float* matrix);
+extern "C" void RotateZ(float angle, float* matrix);
+extern "C" void Scale(float x, float y, float z, float* matrix);
+extern "C" void Translate(float x, float y, float z, float* matrix);
+
+// Función para imprimir una matriz 4x4
+void PrintMatrix(const float* matrix) {
+    for (int i = 0; i < 4; ++i) {
+        for (int j = 0; j < 4; ++j) {
+            std::cout << std::setw(10) << matrix[i * 4 + j] << " ";
+        }
+        std::cout << std::endl;
+    }
+}
+
+int main() {
+    float matrix[16];
+
+    // Prueba de rotación alrededor del eje X
+    std::cout << "Rotación alrededor del eje X (45 grados):" << std::endl;
+    RotateX(45.0f * (3.14159265358979323846f / 180.0f), matrix);
+    PrintMatrix(matrix);
+    std::cout << std::endl;
+
+    // Prueba de rotación alrededor del eje Y
+    std::cout << "Rotación alrededor del eje Y (45 grados):" << std::endl;
+    RotateY(45.0f * (3.14159265358979323846f / 180.0f), matrix);
+    PrintMatrix(matrix);
+    std::cout << std::endl;
+
+    // Prueba de rotación alrededor del eje Z
+    std::cout << "Rotación alrededor del eje Z (45 grados):" << std::endl;
+    RotateZ(45.0f * (3.14159265358979323846f / 180.0f), matrix);
+    PrintMatrix(matrix);
+    std::cout << std::endl;
+
+    // Prueba de escalado
+    std::cout << "Escalado (2, 2, 2):" << std::endl;
+    Scale(2.0f, 2.0f, 2.0f, matrix);
+    PrintMatrix(matrix);
+    std::cout << std::endl;
+
+    // Prueba de traslación
+    std::cout << "Traslación (1, 2, 3):" << std::endl;
+    Translate(1.0f, 2.0f, 3.0f, matrix);
+    PrintMatrix(matrix);
+    std::cout << std::endl;
+
+    return 0;
+}
+*/

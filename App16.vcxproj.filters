@@ -75,8 +75,16 @@
     <ClInclude Include="App.h" />
     <ClInclude Include="App16Main.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="3d routines\Transformations.h">
+      <Filter>3d routines</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="3d routines\Transformations.asm">
+      <Filter>3d routines</Filter>
+    </None>
   </ItemGroup>
 </Project>
